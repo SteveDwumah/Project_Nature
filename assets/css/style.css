@@ -1,0 +1,361 @@
+*{
+    font-family: "Urbanist2";
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url(../fonts/Urbanist-Medium.ttf);
+}
+@font-face {
+    font-family: "Urbanist2";
+    src: url(../fonts/Urbanist-Bold.ttf);
+}
+p{
+    text-align: center;
+}
+body{padding: 15px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8vh;
+}
+nav{
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+nav >img:nth-of-type(1){
+    height: 5vh;
+    max-width: 100%;
+}
+.hidden{
+    display: none;
+}
+.nature{
+    overflow: hidden;
+    display: flex;
+}
+.nature >h1{
+    font-size: 2rem;
+    transform: translate(106px,58px);
+    font-family: "Urbanist2";
+    text-align: center;
+    line-height: 70%;
+    position: relative;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.nature >img{
+    height: 23vh;
+    transform: translate(-44px, 8px);
+}
+.wo{
+    padding: 20px;
+    height: 1vh;
+    width: 66vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-bottom: 2vh;
+}
+.wo >img{
+    height: 2vh;
+}
+.wann{
+    padding: 20px;
+    height: 1vh;
+    width: 66vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-bottom: 2vh;
+    background-color: white;
+}
+.wann >img{
+    height: 2vh;
+}
+.search , .camper{
+    background-color: #A9CBA6;
+    color: white;
+    padding: 20px;
+    height: 1vh;
+    width: 66vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.search >img{
+    height: 2vh;
+}
+.mieten{
+    background-image: url(../img/Vector8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mieten >p:nth-of-type(1){
+    font-family: "Urbanist";
+    color: rgb(56, 55, 55);
+}
+.service , .flex , .check , .full , .miles{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    margin: 10px 10px;
+    border-style: outset;
+}
+.service >p:nth-of-type(2), .flex >p:nth-of-type(2), .check >p:nth-of-type(2), .full >p:nth-of-type(2), .miles >p:nth-of-type(2){
+    font-family: "Urbanist";
+    color: rgb(56, 55, 55);
+}
+
+
+.wahl{
+    background-image: url(../img/Background\ Bulb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 40px;
+    border-bottom: 2px solid black;
+}
+.choise >p{
+    font-family: "Urbanist";
+    color: rgb(56, 55, 55);
+    margin-bottom: 10vh;
+}
+span{
+    font-size: 1.6rem;
+}
+
+.beach >div:nth-of-type(1) , .ocean >div:nth-of-type(1) , .mountain >div:nth-of-type(1){
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.beach >div:nth-of-type(2) , .ocean >div:nth-of-type(2) , .mountain >div:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.8rem;
+    padding: 0 30px 0 30px;
+}
+.beach ,.ocean ,.mountain{
+    overflow: hidden;
+    background-color: #F0CEA0;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.icon >img{
+    background-color: white;
+    border-radius: 100%;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book >p:nth-of-type(1){
+    padding: 20px;
+    height: 1vh;
+    width: 66vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    margin-bottom: 2vh;
+    background-color: white;
+}
+.book >p:nth-of-type(2){
+    background-color: #A9CBA6;
+    color: white;
+    padding: 20px;
+    height: 1vh;
+    width: 66vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    
+}
+footer div:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+footer div:nth-of-type(3) >p{
+    font-family: "Urbanist";
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+.links >p{
+    padding: 6px;
+    margin: 0;
+    font-family: "Urbanist";
+}
+.links >img{
+    height: 8vh;
+}
+@media only screen and (min-width: 768px){
+    .buttons1{
+        display: flex;
+        width: 80vw;
+        gap: 4vw;
+    }
+    
+    .nature >img{
+        width: 100%;
+        height: 100%;
+        transform: translate(-20.5vw);
+    }
+    .nature >h1{
+        font-size: 3.4rem;
+        transform: translate(12vh, 13vw);
+    }
+    .mieten{
+        background-image: none;
+    }
+    .mieten >p:nth-of-type(1){
+        width: 54vw;
+    }
+    .cards , .cards2{
+        display: flex;
+        justify-content: center;
+    }
+    .cards >.service , .flex , .check{
+        width: 27vw;
+    } 
+  
+    .cards2 >.full , .miles{
+        width: 27vw;
+        margin-bottom: 8vh;
+    }
+    .camper{
+        width: 30vw;
+        margin-bottom: 8vh;
+    }
+    .choise{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choise >p{
+        text-align: center;
+        width: 76vw;
+    }
+   .options{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   }
+   .beach >div >img{
+    max-width: 100%;
+   }
+
+   .mountain{
+    width: 45vw;
+   }
+   .options2{
+    display: flex;
+    justify-content: center;
+   }
+   .links2{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+   }
+}
+@media only screen and (min-width: 992px){
+    .hidden{
+        display: flex;
+        justify-content: space-between;
+        width: 54vw;
+        text-decoration: none;
+    }
+    .hidden >a{
+        text-decoration: none;
+        color: black;
+    }
+    nav >img:nth-of-type(2){
+        display: none;
+    }
+    .nature >h1{
+        width: 150px;
+        font-size: 80px;
+        transform: translate(15vw, 30vh);
+    }
+    .nature >img{
+        width: 100%;;
+        transform: translate(-15vw);
+    }
+    .mieten{
+        background-image: url(../img/Vector9.png);
+        background-size: 110vh;
+    }
+    .allcards{
+        display: flex;
+    }
+    .cards >.service , .flex , .check{
+        width: 18vw;
+        height: 50vh;
+        margin: 10vh 0 10vh 1.5vw;
+    }
+    .cards2 >.full , .miles{
+        width: 18vw;
+        margin: 10vh 1.5vw 10vh ;
+    }
+    .beach, .ocean, .mountain{
+        width: 30vw;
+    }
+    .options{
+        gap: 9rem;
+    }
